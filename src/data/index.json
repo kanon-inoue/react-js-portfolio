@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "id": "1", 
+      "src": "./product-chain-1.png", 
+      "title": "Front-End", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+    }, 
+    {
+      "id": "2", 
+      "src": "./img/tag-1.png", 
+      "title": "Back-End", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+    }, 
+    {
+      "id": "3", 
+      "src": "./img/feather-pen-2.png", 
+      "title": "UI & UX Design", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+    }, 
+    {
+      "id": "4", 
+      "src": "./img/feather-pen-1.png", 
+      "title": "Webflow Development", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+    }
+  ]
+}
