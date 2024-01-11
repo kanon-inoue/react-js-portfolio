@@ -1,5 +1,5 @@
-import {useState, useEffect} from "react";
-import {Link} from "react-scroll";
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -15,7 +15,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu
+        closeMenu;
       }
     }; 
 
@@ -35,9 +35,13 @@ function Navbar() {
   return (
     <nav className={'navbar ${navActive ? "active" : ""}'}>
       <div>
-        <img src="./img/svg/logo-no-background.svg" alt="Logoipsum" />
+        <img src="./img/svg/logo-no-background.svg" 
+        style={{height:60, width:60}} 
+        alt="Logoipsum" />
       </div>
-      <a className={'nav_hamburger ${navActive ? "actiuve" : ""}'} onClick={toggleNav}>
+      <a 
+        className={'nav_hamburger ${navActive ? "active" : ""}'} onClick={toggleNav}
+      >
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
@@ -94,7 +98,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonials"
+              to="testimonial"
               className="navbar--content"
             >
               Testimonials
@@ -112,7 +116,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-      Contact Me
+        Contact Me
       </Link>
     </nav>
   );
