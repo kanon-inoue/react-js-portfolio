@@ -40,7 +40,8 @@ function Navbar() {
         alt="kanoninoue.com" />
       </div>
       <a 
-        className={'nav_hamburger ${navActive ? "active" : ""}'} onClick={toggleNav}
+        className={'nav_hamburger ${navActive ? "active" : ""}'} 
+        onClick={toggleNav}
       >
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
