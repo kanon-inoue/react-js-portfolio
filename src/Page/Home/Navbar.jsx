@@ -37,7 +37,7 @@ function Navbar() {
       <div>
         <img src="./img/svg/logo-no-background.svg" 
         style={{height:60, width:60}} 
-        alt="Logoipsum" />
+        alt="kanoninoue.com" />
       </div>
       <a 
         className={'nav_hamburger ${navActive ? "active" : ""}'} onClick={toggleNav}
