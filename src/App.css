@@ -380,3 +380,18 @@ h3 {
   gap: 32px;
   align-self: stretch;
 }
+.portfolio--section--title {
+  color: var(Heading);
+}
+.portfolio--link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+  font-weight: 600;
+}
+.portfolio--section--card:hover path {
+  stroke: #006b6a;
+}
+/* Portfolio Ends */ 
