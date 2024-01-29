@@ -3,9 +3,9 @@ import data from "../../data/index.json";
 export default function Testimonial() {
   return (
     <section className="testimonial--section" id="testimonial">
-      <div className="portfolio---container-box">
+      <div className="portfolio---container--box">
         <div className="portfolio--container">
-          <p className="sub-title">Clients Feedback</p>
+          <p className="sub--title">Clients Feedback</p>
           <h2 className="sections--heading">Customer Feedback</h2>
         </div>
       </div>
@@ -33,10 +33,10 @@ export default function Testimonial() {
             <div className="testimonial--section--card--author--detail">
               <img src={item.src} alt="Avatar" />
               <div>
-                <p className="text-md testimonia--author--name">
+                <p className="text-md testimonial--author--name">
                   {item.author_name}
                 </p>
-                <p className="text-md testimonia--author--designation">
+                <p className="text-md testimonial--author--designation">
                   {item.author_designation}
                 </p>
               </div>

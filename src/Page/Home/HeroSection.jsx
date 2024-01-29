@@ -9,7 +9,7 @@ export default function HeroSection () {
               <br />
               Developer
             </h1>
-            <p className="hero--section-description">
+            <p className="hero--section--description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               <br /> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
