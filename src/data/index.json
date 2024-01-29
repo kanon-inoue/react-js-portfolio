@@ -47,5 +47,31 @@
       "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
       "link": "View In Github"
     }
+  ], 
+  "testimonial": [
+    {
+      "id": "1", 
+      "count": "5",
+      "src": "./img/avotar-image.png", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    }, 
+    {
+      "id": "2", 
+      "count": "5",
+      "src": "./img/avotar-image-1.png", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vitton"
+    }, 
+    {
+      "id": "3", 
+      "count": "5",
+      "src": "./img/avotar-image-2.png", 
+      "description": "Lorem ipsum dolor sit ament, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
   ]
 }
