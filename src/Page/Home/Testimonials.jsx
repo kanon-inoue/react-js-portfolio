@@ -13,8 +13,7 @@ export default function Testimonial() {
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--review">
-              {Array.from({length: 5}, (reviews, index) => 
-              (
+              {Array.from({length: 5}, (reviews, index) => (
                 <svg
                   xmlns="htpp:www.w3.org/2000/svg"
                   width="27"
@@ -45,5 +44,5 @@ export default function Testimonial() {
         ))}
       </div>
     </section>
-  )
+  );
 }

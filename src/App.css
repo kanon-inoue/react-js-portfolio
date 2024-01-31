@@ -333,7 +333,7 @@ h3 {
   align-items: flex-start;
   gap: 80px;
 }
-.portfolio--container-box {
+.portfolio--container--box {
   display: flex; 
   justify-content: space-between;
   align-items: center;
@@ -422,7 +422,7 @@ h3 {
   align-items: flex-start;
   gap: 5.33px;
 }
-.about--section--card--author--detail {
+.testimonial--section--card--author--detail {
   display: flex;
   align-items: center;
   gap: 21.3px;
