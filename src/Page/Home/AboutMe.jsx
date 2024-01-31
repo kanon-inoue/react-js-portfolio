@@ -9,10 +9,19 @@ export default function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="skills--section--heading">About Me</h1>
           <p className="hero--section--description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.
+            I am proficient at Python and C#, 
+            experienced inJavascript, React, 
+            and C++, and have used MySQL, R, and C.
+            I heve experienced and interested in UX and graphic design, 
+            web development, data analysis, and mobile app and game development
           </p>
           <p className="hero--section--description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? 
+            I am pretty good at interpersonal skills. 
+            In addition, I was born and grown up in Japan until I came here to study CS, 
+            so I am a native Japanese speaker. 
+            I love listening to techno, house, disco and acid jazz music, 
+            and taking care of my houseplants, garden, and pets - dogs and fish. 
+            I am a skilled dancer as well.
           </p>
         </div>
       </div>

@@ -3,15 +3,16 @@ export default function HeroSection () {
     <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">
           <div className="hero--section--content">
-            <p className="section--title">Hey, I'm Kanon</p>
+            <p className="section--title">Hey, I'm Kanon Inoue</p>
             <h1 className="hero--section--title">
               <span className="hero--section--title--color">Full Stack</span>{" "}
               <br />
               Developer
             </h1>
             <p className="hero--section--description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <br /> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I'm studying Computer Science at the Queensland University of Technology. I expect to graduate in August 2024. 
+            <br /> I’m looking for an internship, graduate program, part time position, or entry level full time position related to my study.
+            <br /> I am a Japanese person, so I speak Japanese as my native language.
             </p>
           </div>
           <button className="btn btn-primary">Get In Touch</button>
