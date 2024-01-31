@@ -18,11 +18,11 @@ p {
 }
 
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
+  --primary: #FF6418;
+  --heading-color: #571C00;
+  --bg-shade: #FFE0D1;
+  --github: #F1C40F;
+  --darkorange: #A04400;
   --black: #000000;
   --white: #ffffff;
 }
@@ -109,7 +109,7 @@ h3 {
 /* Paragraphs text large medium small */
 /* Body 1 */
 .text-lg {
-  color: var(--darkblue);
+  color: var(--darkorange);
   font-size: 18px;
   font-style: normal;
   font-weight: 400; 
@@ -117,7 +117,7 @@ h3 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--darkblue);
+  color: var(--darkorange);
   font-size: 16px;
   font-style: normal;
   font-weight: 400; 
@@ -178,7 +178,7 @@ h3 {
 }
 /* Navbar Content */
 .navbar--content {
-  color: var(--darkblue);
+  color: var(--darkorange);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -226,7 +226,7 @@ h3 {
   color: var(--primary);
 }
 .hero--section--description {
-  color: var(--darkblue);
+  color: var(--darkorange);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -277,7 +277,7 @@ h3 {
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
+  color: var(--darkorange);
 }
 .skills--section--img {
   display: flex;
@@ -432,7 +432,7 @@ h3 {
   color: var(--heading-color);
 }
 .testimonial--author--designation {
-  color: var(--darkblue);
+  color: var(--darkorange);
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
