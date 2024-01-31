@@ -9,7 +9,7 @@ export default function MyPortfolio () {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          <button className="btn btn-github" onclick="window.location='https://github.com/kanon-inoue';">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"

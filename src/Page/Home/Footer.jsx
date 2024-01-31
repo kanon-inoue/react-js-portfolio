@@ -6,6 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
+        {/* ./img/svg/logo-no-background.svg */}
           <img src="./img/logo.svg" alt="Logoipsum" />
         </div>
         <div className="footer--items">
@@ -81,7 +82,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=100011479686312"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +103,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/itskanondesu/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -123,7 +124,7 @@ function Footer() {
                 </svg>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.twitter.com/"
                 className="navbar--content"
@@ -143,10 +144,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/kanon-inoue-58a6a2205/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
