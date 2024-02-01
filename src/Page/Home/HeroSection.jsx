@@ -1,6 +1,14 @@
+import { motion, useScroll } from "framer-motion";
 export default function HeroSection () {
+  const { scrollYProgress } = useScroll();
   return ( 
-    <section id="heroSection" className="hero--section">
+    <motion.section 
+      id="heroSection" 
+      className="hero--section" 
+      style={{ scaleX: scrollYProgress }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+    >
         <div className="hero--section--content--box">
           <div className="hero--section--content">
             <p className="section--title">Hey, I'm Kanon Inoue</p>
@@ -20,6 +28,6 @@ export default function HeroSection () {
         <div className="hero--section--img">
           <img src="./img/topPic.png" alt="Hero Section" />
         </div>
-      </section>
+      </motion.section>
   );
 }
